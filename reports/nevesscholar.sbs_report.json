@@ -1,0 +1,57 @@
+{
+    "tool": "CyberRecon",
+    "version": "1.1",
+    "author": "Tokyoo",
+    "host": "nevesscholar.sbs",
+    "ip": "216.198.79.1",
+    "scan_date": "2026-10-21 16:37:20.752847",
+    "scan_duration_seconds": 73.6,
+    "open_ports": [
+        80
+    ],
+    "dns": {
+        "A": [
+            "216.198.79.1"
+        ],
+        "MX": [],
+        "NS": []
+    },
+    "ssl": {
+        "tls_version": "TLSv1.3",
+        "subject": [
+            [
+                [
+                    "commonName",
+                    "nevesscholar.sbs"
+                ]
+            ]
+        ],
+        "issuer": [
+            [
+                [
+                    "countryName",
+                    "US"
+                ]
+            ],
+            [
+                [
+                    "organizationName",
+                    "Let's Encrypt"
+                ]
+            ],
+            [
+                [
+                    "commonName",
+                    "YR1"
+                ]
+            ]
+        ]
+    },
+    "ports": [
+        {
+            "port": 80,
+            "service": "HTTP",
+            "banner": "HTTP/1.0 308 Permanent Redirect"
+        }
+    ]
+}
